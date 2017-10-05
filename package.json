@@ -1,0 +1,20 @@
+{
+  "name": "nashorn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "start": "jjs bundle.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "nashorn-polyfill": "^0.2.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.6.0"
+  }
+}
