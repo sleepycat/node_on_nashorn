@@ -1,4 +1,3 @@
-require('nashorn-polyfill')
 const express = require('express')
 
 let server = express()
